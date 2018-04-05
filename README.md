@@ -2,7 +2,7 @@
 This is a replacement to the existing [Jira Server](https://www.xmatters.com/integration/jira-server/) integration. This version adds a drop down to the engage panel for an option to post to a chat room. The code assumes the chat room name will match the Jira issue number. 
 
 <kbd>
-	<img src="media/engage-w-chat.png" width="200">
+	<img src="media/engage-w-chat.png" width="600">
 </kbd>
 
 
@@ -11,12 +11,12 @@ This is a replacement to the existing [Jira Server](https://www.xmatters.com/int
 </kbd>
 
 # Pre-Requisites
-* Version 7.3 of Jira Server
+* Version 7.3+ of Jira Server
 * xMatters account - If you don't have one, [get one](https://www.xmatters.com)!
 
 # Files
 * [xmatters-1.0.2.CHAT-BRANCH.jar](xmatters-1.0.2.CHAT-BRANCH.jar) - Jar file containing the integration
-
+* [JIRAServer.zip](JIRAServer.zip) - Comm Plan with the specific logic for creating the HipChat room. 
 
 # How it works
 
@@ -44,7 +44,7 @@ Make sure you don't have the existing xMatters integration for Jira Server insta
 
 Follow the steps outlined in the normal [Jira Server integration guide](https://support.xmatters.com/hc/en-us/articles/215190563#configure_xmatters). 
 
-Then, update the constant named `HipChat Token` with the token value from above. Additionally, update the `HipChat` endpoint with the url for the HipChat instance and select Basic for the authentication and enter the username and password used to retrieve the HipChat token. 
+Then, update the constant named `HipChat Token` with the token value from above. Additionally, update the `HipChat` endpoint a with the url for the HipChat instance and select Basic for the authentication and enter the username and password used to retrieve the HipChat token. Finally populate the `HipChat URL` and the `Jira URL` constants with the appropriate values. 
 
 
 ## Jira set up
