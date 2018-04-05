@@ -5,6 +5,8 @@ This is a replacement to the existing [Jira Server](https://www.xmatters.com/int
 	<img src="media/engage-w-chat.png" width="600">
 </kbd>
 
+<br />
+<br />
 
 <kbd>
   <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
@@ -19,7 +21,7 @@ This is a replacement to the existing [Jira Server](https://www.xmatters.com/int
 * [JIRAServer.zip](JIRAServer.zip) - Comm Plan with the specific logic for creating the HipChat room. 
 
 # How it works
-
+See the [How it works](https://support.xmatters.com/hc/en-us/articles/215190563#how_it_works) section in the Jira integration page for details. This particular integration adds a Create HipChat Room to the Engage with xMatters dialog to create a new (or post an update to an existing) HipChat room. 
 
 # Installation
 Make sure you don't have the existing xMatters integration for Jira Server installed. 
